@@ -50,7 +50,7 @@ export const Balloon: React.FC<BalloonProps> = ({
       },
     });
 
-    audio.play();
+    // audio.play();
     burst.replay();
     t.style.visibility = "hidden";
     setTimeout(() => {
